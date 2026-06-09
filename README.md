@@ -81,6 +81,22 @@ const me = {
 
 <br/>
 
+## 📌 Featured Projects
+
+<div align="center">
+
+<!-- 👉 Replace your-repo-1 / your-repo-2 with real repo names from your account -->
+<a href="https://github.com/rchase999/your-repo-1">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rchase999&repo=your-repo-1&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=4169E1&icon_color=8A2BE2" alt="repo 1" />
+</a>
+<a href="https://github.com/rchase999/your-repo-2">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rchase999&repo=your-repo-2&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=4169E1&icon_color=8A2BE2" alt="repo 2" />
+</a>
+
+</div>
+
+<br/>
+
 ## 📊 GitHub Statistics
 
 <div align="center">
@@ -102,11 +118,33 @@ const me = {
 
 <br/>
 
+## 📈 Profile Summary
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rchase999&theme=tokyonight" alt="profile summary" />
+
+<br/>
+<br/>
+
+<img height="195em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rchase999&theme=tokyonight" alt="repos per language" />
+<img height="195em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rchase999&theme=tokyonight" alt="most commit language" />
+
+<br/>
+<br/>
+
+<img height="195em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rchase999&theme=tokyonight" alt="profile stats" />
+<img height="195em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rchase999&theme=tokyonight&utcOffset=8" alt="productive time" />
+
+</div>
+
+<br/>
+
 ## 🏆 Trophies
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=rchase999&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=rchase999&theme=tokyonight&no-frame=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
 
 </div>
 
