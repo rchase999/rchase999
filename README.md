@@ -23,16 +23,16 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,50:4169E1,100:00CED1&height=210&section=header&text=YOUR%20NAME%20%F0%9F%91%8B&fontSize=46&fontColor=ffffff&fontAlignY=34&desc=Full-Stack%20Developer%20%7C%20Builder%20%7C%20Tinkerer&descAlignY=56&descSize=18&animation=fadeIn" alt="header" />
 
 <!-- ===================== LIVE TYPING ANIMATION ===================== -->
-<a href="https://github.com/your-username">
+<a href="https://github.com/rchase999">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=4169E1&center=true&vCenter=true&width=620&lines=Welcome+to+my+corner+of+GitHub!;I+build+full-stack+web+apps+%F0%9F%92%BB;I+turn+ideas+into+code+%E2%9A%A1;Always+learning+something+new+%F0%9F%9A%80" alt="typing animation" />
 </a>
 
 <br/>
 
 <!-- ===================== PROFILE VIEWS + FOLLOWERS ===================== -->
-<img src="https://komarev.com/ghpvc/?username=your-username&label=Profile%20Views&color=4169E1&style=for-the-badge" alt="views" />
-<a href="https://github.com/your-username?tab=followers">
-  <img src="https://img.shields.io/github/followers/your-username?label=Followers&style=for-the-badge&color=8A2BE2&logo=github" alt="followers" />
+<img src="https://komarev.com/ghpvc/?username=rchase999&label=Profile%20Views&color=4169E1&style=for-the-badge" alt="views" />
+<a href="https://github.com/rchase999?tab=followers">
+  <img src="https://img.shields.io/github/followers/rchase999?label=Followers&style=for-the-badge&color=8A2BE2&logo=github" alt="followers" />
 </a>
 
 </div>
@@ -155,6 +155,6 @@ const me = {
 <!-- ===================== ANIMATED WAVING FOOTER ===================== -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00CED1,50:4169E1,100:8A2BE2&height=130&section=footer&text=Thanks%20for%20stopping%20by!&fontSize=22&fontColor=ffffff&fontAlignY=68&animation=twinkling" alt="footer" />
 
-⭐️ From [your-username](https://github.com/your-username)
+⭐️ From rchase999(https://github.com/rchase999)
 
 </div>
