@@ -20,7 +20,7 @@
 <div align="center">
 
 <!-- ===================== ANIMATED WAVING HEADER ===================== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,50:4169E1,100:00CED1&height=210&section=header&text=YOUR%20NAME%20%F0%9F%91%8B&fontSize=46&fontColor=ffffff&fontAlignY=34&desc=Full-Stack%20Developer%20%7C%20Builder%20%7C%20Tinkerer&descAlignY=56&descSize=18&animation=fadeIn" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,50:4169E1,100:00CED1&height=210&section=header&text=Raymond%20%F0%9F%91%8B&fontSize=46&fontColor=ffffff&fontAlignY=34&desc=Full-Stack%20Developer%20%7C%20Builder%20%7C%20Tinkerer&descAlignY=56&descSize=18&animation=fadeIn" alt="header" />
 
 <!-- ===================== LIVE TYPING ANIMATION ===================== -->
 <a href="https://github.com/rchase999">
@@ -155,6 +155,6 @@ const me = {
 <!-- ===================== ANIMATED WAVING FOOTER ===================== -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00CED1,50:4169E1,100:8A2BE2&height=130&section=footer&text=Thanks%20for%20stopping%20by!&fontSize=22&fontColor=ffffff&fontAlignY=68&animation=twinkling" alt="footer" />
 
-⭐️ From rchase999(https://github.com/rchase999)
+⭐️ From [rchase999](https://github.com/rchase999)
 
 </div>
