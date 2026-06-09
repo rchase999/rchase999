@@ -6,7 +6,7 @@
      e.g. if you're github.com/octocat  ->  repo name must be "octocat"
      Make it Public + tick "Add a README file".
   2. Paste everything below into that repo's README.md.
-  3. Find & Replace every  your-username  with your real GitHub username.
+  3. Find & Replace every  rchase999  with your real GitHub username.
   4. Fill in the [bracketed] bits and your social links near the bottom.
   5. For the 🐍 snake animation, also add the snake.yml workflow to
      .github/workflows/snake.yml  in the SAME repo (instructions in chat).
@@ -85,18 +85,18 @@ const me = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=4169E1&icon_color=8A2BE2" alt="github stats" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=4169E1&langs_count=8" alt="top languages" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=rchase999&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=4169E1&icon_color=8A2BE2" alt="github stats" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rchase999&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=4169E1&langs_count=8" alt="top languages" />
 
 <br/>
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=your-username&theme=tokyonight&hide_border=true&background=0D1117&ring=4169E1&fire=8A2BE2&currStreakLabel=4169E1" alt="streak stats" />
+<img src="https://streak-stats.demolab.com?user=rchase999&theme=tokyonight&hide_border=true&background=0D1117&ring=4169E1&fire=8A2BE2&currStreakLabel=4169E1" alt="streak stats" />
 
 <br/>
 <br/>
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=your-username&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=4169E1&line=8A2BE2&point=ffffff&area=true&area_color=4169E1" alt="activity graph" />
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=rchase999&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=4169E1&line=8A2BE2&point=ffffff&area=true&area_color=4169E1" alt="activity graph" />
 
 </div>
 
@@ -106,7 +106,7 @@ const me = {
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=your-username&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=rchase999&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
 
 </div>
 
@@ -118,9 +118,9 @@ const me = {
 
 <!-- Needs the snake.yml workflow + one run. Stays blank until then. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/your-username/your-username/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/your-username/your-username/output/snake.svg" />
-  <img alt="snake eating contribution graph" src="https://raw.githubusercontent.com/your-username/your-username/output/snake.svg" />
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/rchase999/rchase999/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rchase999/rchase999/output/snake.svg" />
+  <img alt="snake eating contribution graph" src="https://raw.githubusercontent.com/rchase999/rchase999/output/snake.svg" />
 </picture>
 
 </div>
@@ -141,7 +141,7 @@ const me = {
 
 <div align="center">
 
-<a href="https://github.com/your-username"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
+<a href="https://github.com/rchase999"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
 <a href="https://linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
 <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
 <a href="https://discord.com/users/your-discord-id"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="discord" /></a>
