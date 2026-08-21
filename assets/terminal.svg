@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="terminal session: whoami, stack, git log">
+  <title>~/raymond — live terminal</title>
+  <defs>
+    <linearGradient id="tBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0A0E17"/>
+    </linearGradient>
+    <linearGradient id="tBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1B2333"/>
+      <stop offset="100%" stop-color="#141B28"/>
+    </linearGradient>
+    <linearGradient id="tEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity=".7"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity=".7"/>
+    </linearGradient>
+    <linearGradient id="tScan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="tWin"><rect x="2" y="2" width="996" height="356" rx="14"/></clipPath>
+
+    <clipPath id="c1"><rect x="46" y="88" width="0" height="22"><animate attributeName="width" values="0;72;72;72;0" keyTimes="0;0.05;0.95;0.98;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="46" y="164" width="0" height="22"><animate attributeName="width" values="0;0;144;144;144;0" keyTimes="0;0.13;0.19;0.95;0.98;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="46" y="286" width="0" height="22"><animate attributeName="width" values="0;0;198;198;198;0" keyTimes="0;0.55;0.63;0.95;0.98;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
+
+    <style>
+      .m { font-family: 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size: 15px; }
+      .blink { animation: bl 1s steps(1,end) infinite; }
+      @keyframes bl { 0%,49% { opacity:1 } 50%,100% { opacity:0 } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="360" rx="16" fill="url(#tBg)"/>
+
+  <g clip-path="url(#tWin)">
+    <rect x="0" y="0" width="1000" height="46" fill="url(#tBar)"/>
+    <circle cx="28" cy="23" r="6.5" fill="#FF5F57"/>
+    <circle cx="50" cy="23" r="6.5" fill="#FEBC2E"/>
+    <circle cx="72" cy="23" r="6.5" fill="#28C840"/>
+    <text class="m" x="500" y="28" text-anchor="middle" font-size="13" fill="#6E7B91">raymond@github — zsh — 120×32</text>
+    <rect x="0" y="45" width="1000" height="1" fill="#243043"/>
+
+    <rect x="0" y="46" width="1000" height="60" fill="url(#tScan)" opacity=".7">
+      <animate attributeName="y" values="46;300;46" dur="9s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- cmd 1 -->
+    <g>
+      <text class="m" x="18" y="104" fill="#12FF7F">$</text>
+      <text class="m" x="46" y="104" fill="#E6EDF7" textLength="72" lengthAdjust="spacingAndGlyphs" clip-path="url(#c1)">whoami</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.07;0.09;0.96;1" dur="18s" repeatCount="indefinite"/>
+      <text class="m" x="18" y="132" fill="#818CF8">raymond</text>
+      <text class="m" x="100" y="132" fill="#6E7B91">— full-stack dev, AI tooling, compilers-for-fun</text>
+    </g>
+
+    <!-- cmd 2 -->
+    <g>
+      <text class="m" x="18" y="180" fill="#12FF7F" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.12;0.13;0.96;1" dur="18s" repeatCount="indefinite"/>$</text>
+      <text class="m" x="46" y="180" fill="#E6EDF7" textLength="144" lengthAdjust="spacingAndGlyphs" clip-path="url(#c2)">cat stack.json</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.21;0.23;0.96;1" dur="18s" repeatCount="indefinite"/>
+      <text class="m" x="18" y="208" fill="#6E7B91">{</text>
+      <text class="m" x="42" y="230" fill="#22D3EE">"languages"</text><text class="m" x="152" y="230" fill="#6E7B91">:</text><text class="m" x="172" y="230" fill="#F0B072">["TypeScript", "Python", "Java", "JavaScript"],</text>
+      <text class="m" x="42" y="252" fill="#22D3EE">"runtime"</text><text class="m" x="132" y="252" fill="#6E7B91">:</text><text class="m" x="172" y="252" fill="#F0B072">["Node", "React", "Spring Boot", "Tailwind"],</text>
+      <text class="m" x="42" y="274" fill="#22D3EE">"focus"</text><text class="m" x="114" y="274" fill="#6E7B91">:</text><text class="m" x="172" y="274" fill="#C084FC">"agentic dev tooling · developer experience"</text>
+    </g>
+
+    <!-- cmd 3 -->
+    <g>
+      <text class="m" x="18" y="302" fill="#12FF7F" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.54;0.55;0.96;1" dur="18s" repeatCount="indefinite"/>$</text>
+      <text class="m" x="46" y="302" fill="#E6EDF7" textLength="198" lengthAdjust="spacingAndGlyphs" clip-path="url(#c3)">git log --oneline</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.68;0.96;1" dur="18s" repeatCount="indefinite"/>
+      <text class="m" x="18" y="330" fill="#F0B072">c2408ab</text>
+      <text class="m" x="106" y="330" fill="#8FA0B8">feat: ship something small, every single day</text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.72;0.74;0.96;1" dur="18s" repeatCount="indefinite"/>
+      <rect class="blink" x="46" y="332" width="9" height="18" fill="#12FF7F"/>
+    </g>
+  </g>
+
+  <rect x="2" y="2" width="996" height="356" rx="14" fill="none" stroke="url(#tEdge)" stroke-width="1.5" opacity=".55"/>
+</svg>

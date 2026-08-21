@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Raymond - Full-Stack Developer">
+  <title>Raymond — Full-Stack Developer</title>
+  <defs>
+    <linearGradient id="hSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B0F1A"/>
+      <stop offset="55%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#080B12"/>
+    </linearGradient>
+
+    <linearGradient id="hName" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#22D3EE"><animate attributeName="stop-color" values="#22D3EE;#818CF8;#C084FC;#22D3EE" dur="9s" repeatCount="indefinite"/></stop>
+      <stop offset="50%" stop-color="#818CF8"><animate attributeName="stop-color" values="#818CF8;#C084FC;#22D3EE;#818CF8" dur="9s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#C084FC"><animate attributeName="stop-color" values="#C084FC;#22D3EE;#818CF8;#C084FC" dur="9s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+
+    <linearGradient id="hSweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="hShine" gradientUnits="userSpaceOnUse" x1="-220" y1="0" x2="-100" y2="0">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <animate attributeName="x1" values="-220;420" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="-100;540" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="hEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity=".85"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity=".85"/>
+    </linearGradient>
+
+    <filter id="hBlur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="46"/>
+    </filter>
+    <filter id="hGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <pattern id="hGrid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" fill="none" stroke="#4169E1" stroke-opacity="0.16" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="46 46" dur="9s" repeatCount="indefinite"/>
+    </pattern>
+
+    <radialGradient id="hVig" cx="50%" cy="45%" r="72%">
+      <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity=".75"/>
+    </radialGradient>
+
+    <clipPath id="hCard"><rect x="4" y="4" width="992" height="292" rx="22"/></clipPath>
+    <clipPath id="typ1"><rect x="316" y="188" width="0" height="34"><animate attributeName="width" values="0;240;240;0;0" keyTimes="0;0.1;0.267;0.333;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="typ2"><rect x="316" y="188" width="0" height="34"><animate attributeName="width" values="0;0;216;216;0;0" keyTimes="0;0.333;0.433;0.6;0.667;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="typ3"><rect x="316" y="188" width="0" height="34"><animate attributeName="width" values="0;0;228;228;0;0" keyTimes="0;0.667;0.767;0.933;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+
+    <style>
+      .mono { font-family: 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+      .sans { font-family: ui-sans-serif,system-ui,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif; }
+      .caret { animation: blink 1s steps(1,end) infinite; }
+      @keyframes blink { 0%,49% { opacity:1 } 50%,100% { opacity:0 } }
+      .float { animation: float 6s ease-in-out infinite; }
+      .float2 { animation: float 8s ease-in-out infinite reverse; }
+      @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-12px) } }
+      .spark { animation: spark 4s ease-in-out infinite; }
+      @keyframes spark { 0%,100% { opacity:.15 } 50% { opacity:.9 } }
+      .drift { animation: drift 14s linear infinite; }
+      @keyframes drift { from { transform: translateX(0) } to { transform: translateX(1000px) } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="300" rx="24" fill="url(#hSky)"/>
+
+  <g clip-path="url(#hCard)">
+    <g filter="url(#hBlur)" opacity=".42">
+      <circle cx="150" cy="80" r="96" fill="#8A2BE2">
+        <animate attributeName="cx" values="150;300;150" dur="16s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="80;170;80"   dur="11s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="800" cy="215" r="112" fill="#00CED1">
+        <animate attributeName="cx" values="800;660;800" dur="18s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="215;90;215"  dur="13s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="500" cy="150" r="88" fill="#4169E1">
+        <animate attributeName="cx" values="500;830;210;500" dur="24s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <rect width="1000" height="300" fill="url(#hGrid)"/>
+    <rect width="1000" height="300" fill="url(#hVig)"/>
+
+    <g fill="#9BE8FF">
+      <circle class="spark" cx="90"  cy="60"  r="1.8"/>
+      <circle class="spark" cx="240" cy="240" r="1.4" style="animation-delay:.8s"/>
+      <circle class="spark" cx="420" cy="52"  r="2.1" style="animation-delay:1.6s"/>
+      <circle class="spark" cx="640" cy="262" r="1.5" style="animation-delay:2.4s"/>
+      <circle class="spark" cx="880" cy="72"  r="1.9" style="animation-delay:.4s"/>
+      <circle class="spark" cx="930" cy="196" r="1.3" style="animation-delay:3.2s"/>
+      <circle class="spark" cx="330" cy="130" r="1.2" style="animation-delay:2s"/>
+    </g>
+
+    <g class="drift" opacity=".5">
+      <rect x="-300" y="0" width="180" height="300" fill="url(#hSweep)" opacity=".2"/>
+    </g>
+
+    <g transform="translate(160,150)">
+      <circle r="86" fill="none" stroke="#4169E1" stroke-opacity=".28" stroke-width="1"/>
+      <circle r="66" fill="none" stroke="#22D3EE" stroke-opacity=".35" stroke-width="1" stroke-dasharray="6 9">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="22s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="48" fill="none" stroke="#C084FC" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="120 300">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="14s" repeatCount="indefinite"/>
+      </circle>
+      <g class="float">
+        <text class="mono" x="0" y="14" text-anchor="middle" font-size="40" font-weight="700" fill="url(#hName)" filter="url(#hGlow)">&lt;/&gt;</text>
+      </g>
+      <circle r="86" fill="none" stroke="url(#hEdge)" stroke-width="2" stroke-dasharray="30 510" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g transform="translate(316,0)">
+      <text class="sans" x="0" y="118" font-size="66" font-weight="800" letter-spacing="2" fill="url(#hName)" filter="url(#hGlow)">RAYMOND</text>
+      <text class="sans" x="0" y="118" font-size="66" font-weight="800" letter-spacing="2" fill="url(#hShine)">RAYMOND</text>
+      <rect x="0" y="140" width="0" height="3" rx="1.5" fill="url(#hEdge)">
+        <animate attributeName="width" values="0;330;330" keyTimes="0;0.35;1" dur="12s" repeatCount="indefinite"/>
+      </rect>
+      <text class="mono" x="0" y="170" font-size="13" letter-spacing="4" fill="#7D8FB3">BUILDING · BREAKING · SHIPPING</text>
+    </g>
+
+    <g opacity="0"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.32;0.333;1" dur="12s" repeatCount="indefinite"/>
+      <text class="mono" x="316" y="212" font-size="20" fill="#22D3EE" textLength="240" lengthAdjust="spacingAndGlyphs" clip-path="url(#typ1)">Full-Stack Developer</text>
+      <rect class="caret" y="190" width="10" height="26" fill="#22D3EE" x="316"><animate attributeName="x" values="316;556;556;316;316" keyTimes="0;0.1;0.267;0.333;1" dur="12s" repeatCount="indefinite"/></rect>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.333;0.34;0.66;0.667;1" dur="12s" repeatCount="indefinite"/>
+      <text class="mono" x="316" y="212" font-size="20" fill="#818CF8" textLength="216" lengthAdjust="spacingAndGlyphs" clip-path="url(#typ2)">AI Tooling Builder</text>
+      <rect class="caret" y="190" width="10" height="26" fill="#818CF8" x="316"><animate attributeName="x" values="316;316;532;532;316;316" keyTimes="0;0.333;0.433;0.6;0.667;1" dur="12s" repeatCount="indefinite"/></rect>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.667;0.674;0.99;1" dur="12s" repeatCount="indefinite"/>
+      <text class="mono" x="316" y="212" font-size="20" fill="#C084FC" textLength="228" lengthAdjust="spacingAndGlyphs" clip-path="url(#typ3)">Relentless Tinkerer</text>
+      <rect class="caret" y="190" width="10" height="26" fill="#C084FC" x="316"><animate attributeName="x" values="316;316;544;544;316;316" keyTimes="0;0.667;0.767;0.933;0.99;1" dur="12s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <g transform="translate(316,240)">
+      <rect x="0" y="0" width="196" height="30" rx="15" fill="#12FF7F" fill-opacity=".08" stroke="#12FF7F" stroke-opacity=".35"/>
+      <circle cx="18" cy="15" r="4.5" fill="#12FF7F"><animate attributeName="r" values="4.5;6.5;4.5" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text class="mono" x="34" y="20" font-size="12" letter-spacing="1.2" fill="#7DFFC0">OPEN TO COLLABORATE</text>
+    </g>
+
+    <g class="float2" opacity=".95">
+      <g transform="translate(690,58)">
+        <rect width="106" height="30" rx="15" fill="#0F1626" stroke="#22D3EE" stroke-opacity=".45"/>
+        <text class="mono" x="53" y="20" text-anchor="middle" font-size="12" fill="#22D3EE">TypeScript</text>
+      </g>
+    </g>
+    <g class="float">
+      <g transform="translate(824,116)">
+        <rect width="76" height="30" rx="15" fill="#0F1626" stroke="#C084FC" stroke-opacity=".45"/>
+        <text class="mono" x="38" y="20" text-anchor="middle" font-size="12" fill="#C084FC">Python</text>
+      </g>
+    </g>
+    <g class="float2">
+      <g transform="translate(700,178)">
+        <rect width="66" height="30" rx="15" fill="#0F1626" stroke="#818CF8" stroke-opacity=".45"/>
+        <text class="mono" x="33" y="20" text-anchor="middle" font-size="12" fill="#818CF8">React</text>
+      </g>
+    </g>
+    <g class="float">
+      <g transform="translate(806,232)">
+        <rect width="60" height="30" rx="15" fill="#0F1626" stroke="#F472B6" stroke-opacity=".45"/>
+        <text class="mono" x="30" y="20" text-anchor="middle" font-size="12" fill="#F472B6">Java</text>
+      </g>
+    </g>
+
+    <g stroke="#22D3EE" stroke-width="2" fill="none" opacity=".55">
+      <path d="M22 56V26h30"><animate attributeName="opacity" values=".3;1;.3" dur="3s" repeatCount="indefinite"/></path>
+      <path d="M978 56V26h-30"><animate attributeName="opacity" values="1;.3;1" dur="3s" repeatCount="indefinite"/></path>
+      <path d="M22 244v30h30"><animate attributeName="opacity" values="1;.3;1" dur="3s" repeatCount="indefinite"/></path>
+      <path d="M978 244v30h-30"><animate attributeName="opacity" values=".3;1;.3" dur="3s" repeatCount="indefinite"/></path>
+    </g>
+  </g>
+
+  <rect x="4" y="4" width="992" height="292" rx="22" fill="none" stroke="url(#hEdge)" stroke-width="1.5" opacity=".7"/>
+</svg>
